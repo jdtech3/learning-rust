@@ -1,0 +1,35 @@
+# Sensitive
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Rust (copied from GitHub)
+target/
+**/*.rs.bk
+*.pdb
+**/mutants.out*/
+
+# Binaries/objects
+dist/
+*.exe
+*.o
+*.obj
+*.elf
+*.dll
+*.so
+
+# Temp
+build/
+.cache/
+tmp/
+*.log*
+
+# OS
+._*
+Thumbs.db
+*desktop.ini
+.DS_Store
+.Spotlight-V100/
+.Trashes/
